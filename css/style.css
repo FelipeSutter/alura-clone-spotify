@@ -57,8 +57,75 @@ h1 {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+    transition: 0.5s;
 }
 
 .sidebar nav ul li a:hover {
     color: #fff;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+    min-block-size: 40px;
+}
+
+.library_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.library .library_button {
+    margin-right: 10px;
+    margin-left: 16px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.library .library_button span {
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.library .library_button:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.library .library_button .fa {
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library_content .plus_background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.library .library_content .plus_background:hover {
+    background-color: #212121;
+ }

@@ -128,4 +128,73 @@ h1 {
 
 .library .library_content .plus_background:hover {
     background-color: #212121;
+    color: #fff;
  }
+
+ .library .playlist {
+    color: #fff;
+    background-color: #212121;
+    border-radius: 8px;
+    padding: 16px;
+ }
+
+ .library .playlist .text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .library .playlist .text .first-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+
+ .library .playlist .text .second-text {
+    font-size: 12px;
+    font-weight: 0;
+    margin-bottom: 1rem;
+    font-family: "Arial", sans-serif;
+ }
+
+ .library .playlist .button-playlist {
+    background-color: #fff;
+    color: #121212;
+    display: block;
+    border-radius: 20px;
+    margin-left: 6px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.library .cookies {
+    padding: 16px;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 6px;
+}
+
+.library .language-button {
+    color: #fff;
+    width: 200px;
+    padding: 6px;
+    margin: 1rem 1rem;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid #696969;
+    transition: 0.5s;
+}
+
+.library .language-button .fa {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.library .language-button:hover {
+    border: 1px solid #fff;
+}

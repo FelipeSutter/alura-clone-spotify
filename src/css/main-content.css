@@ -102,3 +102,18 @@
     transform: scale(1.05);
     font-weight: bolder;
 }
+
+.playlist_container {
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    height: 364px;
+    background-color: var(--primary-background);
+}
+
+.text-playlist {
+    margin: 8px;
+    color: var(--white-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -72,6 +72,7 @@ body {
     margin-top: 10px;
     flex-direction: column;
     min-block-size: 40px;
+    height: 57.7vh;
 }
 
 .library_content {
@@ -126,33 +127,33 @@ body {
     color: var(--white-font);
  }
 
-.playlist {
+.create-playlist {
     color: var(--white-font);
     background-color: var(--playlist-background);
     border-radius: 8px;
     padding: 16px;
  }
 
- .library .playlist .text {
+ .library .create-playlist .text {
     padding: 10px;
     display: flex;
     flex-direction: column;
  }
 
- .library .playlist .text .first-text {
+ .library .create-playlist .text .first-text {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
- .library .playlist .text .second-text {
+ .library .create-playlist .text .second-text {
     font-size: 12px;
     font-weight: 0;
     margin-bottom: 1rem;
     font-family: "Arial", sans-serif;
  }
 
- .library .playlist .button-playlist {
+ .library .create-playlist .button-playlist {
     background-color: var(--white-font);
     color: var(--primary-background);
     display: block;
